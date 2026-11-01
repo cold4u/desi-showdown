@@ -1,8 +1,6 @@
-# Sansad Showdown — Indian Politics Fighter (Mirror)
+# Desi Showdown — Indian Politics Fighter
 
-A complete, standalone mirror of the 3D fighting game [FightKaro.com](https://www.fightkaro.com/) (*Sansad Showdown: The King of Iron Neta Tournament*), built with Three.js, Canvas, and Web Audio.
-
-> **Credits:** Original concept and game created by [@shivmbuilds](https://www.instagram.com/shivmbuilds/) at [fightkaro.com](https://www.fightkaro.com/). All characters and moves are satirical caricatures.
+A standalone 3D fighting game featuring political caricatures, built with Three.js, Canvas, and Web Audio.
 
 ---
 
@@ -12,7 +10,7 @@ A complete, standalone mirror of the 3D fighting game [FightKaro.com](https://ww
 - **Both Desktop & Mobile Models:** High-poly desktop versions and optimized mobile `.glb` assets.
 - **Complete Sound FX & Voice Lines:** 57 sound effects, announcer voice tracks ("Fight!", "K.O.!", "Final Round!"), super moves soundbeds, and music.
 - **Procedural Arenas:** Sansad Bhavan, Jantar Mantar, and Desi Sadak.
-- **Dynamic HUD & News Ticker:** Real-time health bars, Shakti meter, combo counters, live news channel commentary parody, and Daily Jumla newspaper post-match screen.
+- **Dynamic HUD & News Ticker:** Real-time health bars, Shakti meter, combo counters, live parody news channel commentary, and post-match victory screen.
 - **Zero Build Tools Required:** Pure static files ready to be served immediately by GitHub Pages, Vercel, Netlify, or any static HTTP server.
 
 ---
@@ -52,7 +50,7 @@ Because the game uses ES Modules and WebGL assets (`.glb` models), it must be se
 ```bash
 python3 -m http.server 8080
 ```
-Then visit `http://localhost:8080` in your web browser.
+Then open `http://localhost:8080` in your web browser.
 
 ### Using Node.js:
 ```bash
@@ -63,7 +61,7 @@ npx serve .
 
 ## 🚀 Hosting on GitHub Pages
 
-This mirror is configured with relative URLs (`./`) and `.nojekyll`, meaning it works automatically when hosted in any GitHub Pages subfolder (e.g. `https://<username>.github.io/<reponame>/`).
+This game is configured with relative URLs (`./`) and `.nojekyll`, meaning it works automatically when hosted in any GitHub Pages subfolder (e.g. `https://<username>.github.io/<reponame>/`).
 
 ### Option 1: Automatic via GitHub Actions (Recommended)
 1. Push this repository to GitHub.
@@ -74,11 +72,10 @@ This mirror is configured with relative URLs (`./`) and `.nojekyll`, meaning it 
 ### Option 2: Deploy from Branch
 1. In your GitHub repository, go to **Settings** → **Pages**.
 2. Under **Build and deployment** → **Source**, choose **Deploy from a branch**.
-3. Select branch `main` (or `master`) and folder `/ (root)`.
+3. Select branch `main` and folder `/ (root)`.
 4. Click **Save**. Within ~1 minute, your game will be live at `https://<username>.github.io/<reponame>/`!
 
 ---
 
-## 📄 License & Parody Notice
-This project is an archived parody mirror for educational and personal entertainment purposes.
-All character caricatures and political elements are intended solely as light-hearted parody.
+## 📄 Parody Notice
+This game is a parody for entertainment purposes. All character caricatures and political elements are intended solely as light-hearted humor.

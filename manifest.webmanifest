@@ -1,7 +1,7 @@
 {
-  "name": "Sansad Showdown",
-  "short_name": "Sansad Showdown",
-  "description": "A Tekken-style 3D fighting game parody of Indian politics.",
+  "name": "Desi Showdown",
+  "short_name": "Desi Showdown",
+  "description": "A Tekken-style 3D fighting game parody featuring political netas.",
   "start_url": "./",
   "scope": "./",
   "display": "fullscreen",
